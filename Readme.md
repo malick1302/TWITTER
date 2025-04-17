@@ -49,13 +49,14 @@ public function pdo_connect(){
     return $this->connect;
 }
 }
-?>
+
 
 ##Creation du "private.php" --> y ajouter :
-<?php
+
+"<?php"
 define('SALT', "vive le projet tweet_academy");
 define('SALT_COOKIE', "let me in");
-?>
+
  
   
   
