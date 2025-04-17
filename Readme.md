@@ -52,7 +52,6 @@ public function pdo_connect(){
 
 ##Creation du "private.php" --> y ajouter :
 
-<?php
 define('SALT', "vive le projet tweet_academy");
 define('SALT_COOKIE', "let me in");
  
