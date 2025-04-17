@@ -30,7 +30,7 @@ Il est possible de :
 - Dans le dossier config :
 
   ##Creation du "connect.php" --> y ajouter :
-  <?php
+  ``` <?php
  
 class Connect{
 
@@ -51,12 +51,13 @@ public function pdo_connect(){
 }
 
 
+
 ##Creation du "private.php" --> y ajouter :
 
-"<?php"
+``` <?php
 define('SALT', "vive le projet tweet_academy");
 define('SALT_COOKIE', "let me in");
-
+```
  
   
   
