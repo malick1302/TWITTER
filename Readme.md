@@ -49,6 +49,7 @@ public function pdo_connect(){
     return $this->connect;
 }
 }
+?>
 
 ##Creation du "private.php" --> y ajouter :
 <?php
