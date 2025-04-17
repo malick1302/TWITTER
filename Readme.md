@@ -1,17 +1,14 @@
 # TWITTER 🦜
-
  Projet d'un mois dans une Team de 4.
  L'objectif était de recréer les fonctionalités de base Twitter.
 
 # TECHNOLOGIES 📒
-
 - PHP
 - Tailwind
 - MYSQL
 - AJAX
 
 # FONCTIONALITéS 👨‍🏫
-
 - Page inscription
 - Page connexion
 - Page home
@@ -26,7 +23,6 @@ Il est possible de :
 
 
 #UTILISATION 🤓
-
 - Git clone le projet
 - dans le terminal ajouter "gener output.css -> npx @tailwindcss/cli -i main.css -o ./src/output.css --watch "
 - Ouvrir Visual Studio Code
@@ -37,7 +33,7 @@ Il est possible de :
   <?php
  
 class Connect{
- 
+
     private $host = "localhost";
     private $dbname = "twitter";
     private $username = "root";
@@ -53,7 +49,6 @@ public function pdo_connect(){
     return $this->connect;
 }
 }
-
 
 ##Creation du "private.php" --> y ajouter :
 
